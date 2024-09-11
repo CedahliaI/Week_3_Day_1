@@ -236,9 +236,17 @@ print (sqrt (36))
 # #round one number
 name = input ("What is your name? ")
 print ("My name is " + name)
-first_number = (input ("Enter a number"))
-second_number = (input ("Enter another number"))
+first_number = (int (input ("Enter a number")))
+second_number = (int (input ("Enter another number")))
 print (first_number + second_number)
+print (first_number * second_number)
+print (max(first_number , second_number))
+print (min(first_number , second_number))
+print ((first_number % second_number))
+print (round(first_number))
+
+
+
 
 
 
