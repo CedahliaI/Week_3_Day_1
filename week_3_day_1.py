@@ -234,8 +234,11 @@ print (sqrt (36))
 # # find the max number
 # # find the remainder of the numbers
 # #round one number
-
-
+name = input ("What is your name? ")
+print ("My name is " + name)
+first_number = (input ("Enter a number"))
+second_number = (input ("Enter another number"))
+print (first_number + second_number)
 
 
 
