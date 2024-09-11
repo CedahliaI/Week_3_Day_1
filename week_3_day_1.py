@@ -47,25 +47,32 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-# 2. name
-# 3. song
-# 4. food
-# 5. number
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = input ("How old are you?")
+# # 2. name
+# name = input ("What is your name?")
+# # 3. song
+# song = input ("What is your favorite song?")
+# # 4. food
+# food = input ("What is your favorite food?")
+# # 5. number
+# number = input ("What is your favorite number")
 
+# # #now include the variables you just made print in the following...
+# print ("I am" + age)
+# print ("My name is" + name)
+# print ("My favorite song is" + song)
+# print ("My favorite food is" + food)
+# print ("My favorite number is" + number)
+# # Once upon a time, there was a [age] old coder named [name].
+# print ("Once upon a time, there was a " + str(age) + " old coder named " + name)
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print (name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " cwould stop singing.")
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print ("Still, " + name +  " was the best coder on the team and could write " + number + " lines of code every day. Maybe " + song + " was " + name + "'s secret power?")
 
-# #now include the variables you just made print in the following...
-
-
-# Once upon a time, there was a [age] old coder named [name].
-
-
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
-
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
 
 
@@ -102,13 +109,14 @@
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# First_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list_of_names
+
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -132,7 +140,7 @@
 # 1_variable
 # email@address
 # percentage%
-# i
+# illinois
 
 
 
@@ -167,22 +175,40 @@
 
 ##########################################################################################
 # #addition
+print (2 + 2)
 # #multiplication
+print (2 * 2)
 # #division
+print (2 / 2)
 # #modulo
+print (2 % 2) #remainder of the division
 # #powers
+print (2 ** 2 ) #2 to the power of 2
 # #get the max and min of a number
+print (max(2, 3))
+print (min(2, 3))
 # #round a number
+print (round (2.5)) #rounds to the nearest whole number
 # # absolute value
+print (abs (-2)) #absolute value of the number
 # # order of operations
+print (2 + 10 * 10 + 3) #order of opperations
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print (floor(3.7)) #floor method
+print (floor (3.3))
+print (floor (3.9))
+#floor means it will always round down
 # #ceil method
+print (ceil (3.7)) #ceil method
+print (ceil (3.3))
+#ciel means it will always round up
 # #sqrt method
-
-
+print (sqrt (36))
+# sqrt method means it will find the square root of the number
+#which is the number that when multipled by itself gives the number
 
 
 
